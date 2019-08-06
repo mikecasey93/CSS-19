@@ -1,4 +1,4 @@
-"""# The Factors funtion gives all factors of a number
+ The Factors funtion gives all factors of a number
 def Factors(number):
     number = abs(number)
     listOfFactors = []
@@ -9,24 +9,24 @@ def Factors(number):
 
     return listOfFactors
 
-#The counToN counts from 1 to a number
+The counToN counts from 1 to a number
 def countToN(num2):
     num2 = abs(num2)
     
     for j in range(1,num2+1):
         print j
 
-#The input variables
+The input variables
 m = raw_input("Enter an integer ")
 m = int(m)
 
 n = raw_input("Enter an integer ")
 n = int(n)
 
-#Function calls
+Function calls
 print Factors(m)
 countToN(n)
-"""
+
 
 def CharacterCount():
     word = raw_input("Enter a string ")
